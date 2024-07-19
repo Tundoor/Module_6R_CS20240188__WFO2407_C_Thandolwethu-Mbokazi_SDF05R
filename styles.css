@@ -56,10 +56,32 @@ body {
     border: 15px solid#227040 ;
 }
 
+.profile{
+    padding: 5rem 0;
+}
+
+.profile::after {
+    content: "";
+    display:block;
+    clear: both;
+}
+
+.profile-image {
+    float:  left;
+    width: calc(33.3333%-1rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+ 
 
 
 
-   
-   
+
+
+
+
 
 
